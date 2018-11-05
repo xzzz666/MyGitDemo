@@ -11,7 +11,7 @@ public class Client_02Controller {
     String port;
     @RequestMapping("hello/{name}")
     public String hello(@PathVariable String name){
-        System.out.println("hello");
+        System.out.println("helloxxxxxx");
         return "我的端口号是："+name+"   "+port;
     }
 
