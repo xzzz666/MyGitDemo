@@ -1,0 +1,11 @@
+server:
+  port: 6707
+
+spring:
+  application:
+    name: client_02 # 设置应用名
+
+eureka:
+  client:
+    serviceUrl: #注册中心地址，和前面注册中心的地址一样
+      defaultZone: http://localhost:8067/eureka/
